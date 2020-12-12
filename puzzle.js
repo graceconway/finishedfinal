@@ -96,7 +96,7 @@ makeTiles();
 
 $.ajax({
   url: "text.txt",
-  context: document.body
+  document.body
 }).done(function() {
-  console.log(This is Grace);
+  console.log();
 });
