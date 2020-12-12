@@ -98,5 +98,5 @@ $.ajax({
   url: "text.txt",
   context: document.body
 }).done(function() {
-  $( this ).addClass( "done" );
+  console.log(This is Grace);
 });
