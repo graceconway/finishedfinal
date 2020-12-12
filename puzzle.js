@@ -96,7 +96,6 @@ makeTiles();
 
 $.ajax({
   url: "text.txt",
-  document.body
-}).done(function() {
+}).done(function(data) {
   console.log();
 });
